@@ -1,0 +1,26 @@
+{
+   "name": "api",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/express": "^4.17.12",
+      "@types/node": "^8.0.29",
+      "@types/uuid": "^8.3.0",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^1.1.8",
+      "tsconfig-paths": "^3.9.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "slugify": "^1.5.3",
+      "typeorm": "0.2.34",
+      "uuid": "^8.3.2"
+   },
+   "scripts": {
+      "start": "ts-node -r tsconfig-paths/register src/index.ts",
+      "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts"
+   }
+}

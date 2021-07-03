@@ -1,0 +1,22 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+         "@controllers/*": ["src/controllers/*"],
+         "@entity/*": ["src/entity/*"],
+         "@routes/*": ["src/routes/*"],
+         "@utils/*": ["src/utils/*"]
+      }
+   }
+}
