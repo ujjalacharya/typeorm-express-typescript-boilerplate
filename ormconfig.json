@@ -4,7 +4,7 @@
    "port": 5432,
    "username": "root",
    "password": "root",
-   "database": "sharelenden",
+   "database": "<your-db-name>",
    "synchronize": true,
    "logging": false,
    "entities": [
